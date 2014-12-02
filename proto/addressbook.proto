@@ -1,7 +1,15 @@
 package tutorial;
 
+enum PhoneType {
+    UNKNOWN = 0;
+    MOBILE = 1;
+    HOME = 2;
+    WORK = 3;
+}
+
 message PhoneNumber {
     required string number = 1;
+    optional PhoneType type = 2 [default = UNKNOWN];
 }
 
 message Person {
