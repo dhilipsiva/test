@@ -3,6 +3,7 @@
 
 import sys
 _b=sys.version_info[0]<3 and (lambda x:x) or (lambda x:x.encode('latin1'))
+from google.protobuf.internal import enum_type_wrapper
 from google.protobuf import descriptor as _descriptor
 from google.protobuf import message as _message
 from google.protobuf import reflection as _reflection
@@ -18,10 +19,45 @@ _sym_db = _symbol_database.Default()
 DESCRIPTOR = _descriptor.FileDescriptor(
   name='addressbook.proto',
   package='tutorial',
-  serialized_pb=_b('\n\x11\x61\x64\x64ressbook.proto\x12\x08tutorial\"\x1d\n\x0bPhoneNumber\x12\x0e\n\x06number\x18\x01 \x02(\t\"W\n\x06Person\x12\x0c\n\x04name\x18\x01 \x02(\t\x12\n\n\x02id\x18\x02 \x02(\x05\x12\r\n\x05\x65mail\x18\x03 \x01(\t\x12$\n\x05phone\x18\x04 \x03(\x0b\x32\x15.tutorial.PhoneNumber\"/\n\x0b\x41\x64\x64ressBook\x12 \n\x06person\x18\x01 \x03(\x0b\x32\x10.tutorial.Person')
+  serialized_pb=_b('\n\x11\x61\x64\x64ressbook.proto\x12\x08tutorial\"I\n\x0bPhoneNumber\x12\x0e\n\x06number\x18\x01 \x02(\t\x12*\n\x04type\x18\x02 \x01(\x0e\x32\x13.tutorial.PhoneType:\x07UNKNOWN\"W\n\x06Person\x12\x0c\n\x04name\x18\x01 \x02(\t\x12\n\n\x02id\x18\x02 \x02(\x05\x12\r\n\x05\x65mail\x18\x03 \x01(\t\x12$\n\x05phone\x18\x04 \x03(\x0b\x32\x15.tutorial.PhoneNumber\"/\n\x0b\x41\x64\x64ressBook\x12 \n\x06person\x18\x01 \x03(\x0b\x32\x10.tutorial.Person*8\n\tPhoneType\x12\x0b\n\x07UNKNOWN\x10\x00\x12\n\n\x06MOBILE\x10\x01\x12\x08\n\x04HOME\x10\x02\x12\x08\n\x04WORK\x10\x03')
 )
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
+_PHONETYPE = _descriptor.EnumDescriptor(
+  name='PhoneType',
+  full_name='tutorial.PhoneType',
+  filename=None,
+  file=DESCRIPTOR,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name='UNKNOWN', index=0, number=0,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='MOBILE', index=1, number=1,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='HOME', index=2, number=2,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='WORK', index=3, number=3,
+      options=None,
+      type=None),
+  ],
+  containing_type=None,
+  options=None,
+  serialized_start=244,
+  serialized_end=300,
+)
+_sym_db.RegisterEnumDescriptor(_PHONETYPE)
+
+PhoneType = enum_type_wrapper.EnumTypeWrapper(_PHONETYPE)
+UNKNOWN = 0
+MOBILE = 1
+HOME = 2
+WORK = 3
 
 
 
@@ -39,6 +75,13 @@ _PHONENUMBER = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
+    _descriptor.FieldDescriptor(
+      name='type', full_name='tutorial.PhoneNumber.type', index=1,
+      number=2, type=14, cpp_type=8, label=1,
+      has_default_value=True, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
   ],
   extensions=[
   ],
@@ -51,7 +94,7 @@ _PHONENUMBER = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=31,
-  serialized_end=60,
+  serialized_end=104,
 )
 
 
@@ -101,8 +144,8 @@ _PERSON = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=62,
-  serialized_end=149,
+  serialized_start=106,
+  serialized_end=193,
 )
 
 
@@ -131,15 +174,17 @@ _ADDRESSBOOK = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=151,
-  serialized_end=198,
+  serialized_start=195,
+  serialized_end=242,
 )
 
+_PHONENUMBER.fields_by_name['type'].enum_type = _PHONETYPE
 _PERSON.fields_by_name['phone'].message_type = _PHONENUMBER
 _ADDRESSBOOK.fields_by_name['person'].message_type = _PERSON
 DESCRIPTOR.message_types_by_name['PhoneNumber'] = _PHONENUMBER
 DESCRIPTOR.message_types_by_name['Person'] = _PERSON
 DESCRIPTOR.message_types_by_name['AddressBook'] = _ADDRESSBOOK
+DESCRIPTOR.enum_types_by_name['PhoneType'] = _PHONETYPE
 
 PhoneNumber = _reflection.GeneratedProtocolMessageType('PhoneNumber', (_message.Message,), dict(
   DESCRIPTOR = _PHONENUMBER,
