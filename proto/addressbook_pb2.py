@@ -18,20 +18,41 @@ _sym_db = _symbol_database.Default()
 DESCRIPTOR = _descriptor.FileDescriptor(
   name='addressbook.proto',
   package='tutorial',
-  serialized_pb=_b('\n\x11\x61\x64\x64ressbook.proto\x12\x08tutorial\"\r\n\x0b\x41\x64\x64ressBook')
+  serialized_pb=_b('\n\x11\x61\x64\x64ressbook.proto\x12\x08tutorial\"1\n\x06Person\x12\x0c\n\x04name\x18\x01 \x02(\t\x12\n\n\x02id\x18\x02 \x02(\x05\x12\r\n\x05\x65mail\x18\x03 \x01(\t\"/\n\x0b\x41\x64\x64ressBook\x12 \n\x06person\x18\x01 \x03(\x0b\x32\x10.tutorial.Person')
 )
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 
 
 
-_ADDRESSBOOK = _descriptor.Descriptor(
-  name='AddressBook',
-  full_name='tutorial.AddressBook',
+_PERSON = _descriptor.Descriptor(
+  name='Person',
+  full_name='tutorial.Person',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
+    _descriptor.FieldDescriptor(
+      name='name', full_name='tutorial.Person.name', index=0,
+      number=1, type=9, cpp_type=9, label=2,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='id', full_name='tutorial.Person.id', index=1,
+      number=2, type=5, cpp_type=1, label=2,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='email', full_name='tutorial.Person.email', index=2,
+      number=3, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
   ],
   extensions=[
   ],
@@ -44,10 +65,49 @@ _ADDRESSBOOK = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=31,
-  serialized_end=44,
+  serialized_end=80,
 )
 
+
+_ADDRESSBOOK = _descriptor.Descriptor(
+  name='AddressBook',
+  full_name='tutorial.AddressBook',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='person', full_name='tutorial.AddressBook.person', index=0,
+      number=1, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  options=None,
+  is_extendable=False,
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=82,
+  serialized_end=129,
+)
+
+_ADDRESSBOOK.fields_by_name['person'].message_type = _PERSON
+DESCRIPTOR.message_types_by_name['Person'] = _PERSON
 DESCRIPTOR.message_types_by_name['AddressBook'] = _ADDRESSBOOK
+
+Person = _reflection.GeneratedProtocolMessageType('Person', (_message.Message,), dict(
+  DESCRIPTOR = _PERSON,
+  __module__ = 'addressbook_pb2'
+  # @@protoc_insertion_point(class_scope:tutorial.Person)
+  ))
+_sym_db.RegisterMessage(Person)
 
 AddressBook = _reflection.GeneratedProtocolMessageType('AddressBook', (_message.Message,), dict(
   DESCRIPTOR = _ADDRESSBOOK,
