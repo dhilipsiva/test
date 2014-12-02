@@ -1,0 +1,14 @@
+Hello everyone!
+I am `dhilipsiva`.
+I would love to lean about your favorite tech stack.
+
+Languages: Python, Ruby, CoffeeScript
+Web Framework: Django & Rails
+RDBMS: MySQL
+Client Framework: Ember (with QUnit for testing)
+CSS pre-processor: SASS with Compass
+Reverse Proxy: Nginx
+Caches: Memcached, Varnish
+Cloud: AWS, Heroku
+
+Did I miss something?
