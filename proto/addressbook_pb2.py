@@ -18,43 +18,12 @@ _sym_db = _symbol_database.Default()
 DESCRIPTOR = _descriptor.FileDescriptor(
   name='addressbook.proto',
   package='',
-  serialized_pb=_b('\n\x11\x61\x64\x64ressbook.proto\"\r\n\x0b\x41\x64\x64ressBook')
+  serialized_pb=_b('\n\x11\x61\x64\x64ressbook.proto')
 )
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 
 
-
-_ADDRESSBOOK = _descriptor.Descriptor(
-  name='AddressBook',
-  full_name='AddressBook',
-  filename=None,
-  file=DESCRIPTOR,
-  containing_type=None,
-  fields=[
-  ],
-  extensions=[
-  ],
-  nested_types=[],
-  enum_types=[
-  ],
-  options=None,
-  is_extendable=False,
-  extension_ranges=[],
-  oneofs=[
-  ],
-  serialized_start=21,
-  serialized_end=34,
-)
-
-DESCRIPTOR.message_types_by_name['AddressBook'] = _ADDRESSBOOK
-
-AddressBook = _reflection.GeneratedProtocolMessageType('AddressBook', (_message.Message,), dict(
-  DESCRIPTOR = _ADDRESSBOOK,
-  __module__ = 'addressbook_pb2'
-  # @@protoc_insertion_point(class_scope:AddressBook)
-  ))
-_sym_db.RegisterMessage(AddressBook)
 
 
 # @@protoc_insertion_point(module_scope)
