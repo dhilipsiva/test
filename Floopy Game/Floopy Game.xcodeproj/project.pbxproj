@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		094982941A68BDE4001973CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 094982931A68BDE4001973CD /* main.m */; };
+		094982971A68BDE4001973CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 094982961A68BDE4001973CD /* AppDelegate.m */; };
+		094982991A68BDE4001973CD /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 094982981A68BDE4001973CD /* art.scnassets */; };
+		0949829C1A68BDE4001973CD /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0949829B1A68BDE4001973CD /* GameViewController.m */; };
+		0949829F1A68BDE4001973CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0949829D1A68BDE4001973CD /* Main.storyboard */; };
+		094982A11A68BDE4001973CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094982A01A68BDE4001973CD /* Images.xcassets */; };
+		094982A41A68BDE4001973CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 094982A21A68BDE4001973CD /* LaunchScreen.xib */; };
+		094982B01A68BDE4001973CD /* Floopy_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 094982AF1A68BDE4001973CD /* Floopy_GameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		094982AA1A68BDE4001973CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 094982861A68BDE4001973CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0949828D1A68BDE4001973CD;
+			remoteInfo = "Floopy Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0949828E1A68BDE4001973CD /* Floopy Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Floopy Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		094982921A68BDE4001973CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		094982931A68BDE4001973CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		094982951A68BDE4001973CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		094982961A68BDE4001973CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		094982981A68BDE4001973CD /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		0949829A1A68BDE4001973CD /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		0949829B1A68BDE4001973CD /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		0949829E1A68BDE4001973CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		094982A01A68BDE4001973CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		094982A31A68BDE4001973CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		094982A91A68BDE4001973CD /* Floopy GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Floopy GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		094982AE1A68BDE4001973CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		094982AF1A68BDE4001973CD /* Floopy_GameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Floopy_GameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0949828B1A68BDE4001973CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094982A61A68BDE4001973CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		094982851A68BDE4001973CD = {
+			isa = PBXGroup;
+			children = (
+				094982901A68BDE4001973CD /* Floopy Game */,
+				094982AC1A68BDE4001973CD /* Floopy GameTests */,
+				0949828F1A68BDE4001973CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0949828F1A68BDE4001973CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0949828E1A68BDE4001973CD /* Floopy Game.app */,
+				094982A91A68BDE4001973CD /* Floopy GameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		094982901A68BDE4001973CD /* Floopy Game */ = {
+			isa = PBXGroup;
+			children = (
+				094982951A68BDE4001973CD /* AppDelegate.h */,
+				094982961A68BDE4001973CD /* AppDelegate.m */,
+				094982981A68BDE4001973CD /* art.scnassets */,
+				0949829A1A68BDE4001973CD /* GameViewController.h */,
+				0949829B1A68BDE4001973CD /* GameViewController.m */,
+				0949829D1A68BDE4001973CD /* Main.storyboard */,
+				094982A01A68BDE4001973CD /* Images.xcassets */,
+				094982A21A68BDE4001973CD /* LaunchScreen.xib */,
+				094982911A68BDE4001973CD /* Supporting Files */,
+			);
+			path = "Floopy Game";
+			sourceTree = "<group>";
+		};
+		094982911A68BDE4001973CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				094982921A68BDE4001973CD /* Info.plist */,
+				094982931A68BDE4001973CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		094982AC1A68BDE4001973CD /* Floopy GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				094982AF1A68BDE4001973CD /* Floopy_GameTests.m */,
+				094982AD1A68BDE4001973CD /* Supporting Files */,
+			);
+			path = "Floopy GameTests";
+			sourceTree = "<group>";
+		};
+		094982AD1A68BDE4001973CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				094982AE1A68BDE4001973CD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0949828D1A68BDE4001973CD /* Floopy Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 094982B31A68BDE4001973CD /* Build configuration list for PBXNativeTarget "Floopy Game" */;
+			buildPhases = (
+				0949828A1A68BDE4001973CD /* Sources */,
+				0949828B1A68BDE4001973CD /* Frameworks */,
+				0949828C1A68BDE4001973CD /* Resources */,
+				094982B91A68BE30001973CD /* ShellScript */,
+				094982BA1A68BE8D001973CD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Floopy Game";
+			productName = "Floopy Game";
+			productReference = 0949828E1A68BDE4001973CD /* Floopy Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		094982A81A68BDE4001973CD /* Floopy GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 094982B61A68BDE4001973CD /* Build configuration list for PBXNativeTarget "Floopy GameTests" */;
+			buildPhases = (
+				094982A51A68BDE4001973CD /* Sources */,
+				094982A61A68BDE4001973CD /* Frameworks */,
+				094982A71A68BDE4001973CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				094982AB1A68BDE4001973CD /* PBXTargetDependency */,
+			);
+			name = "Floopy GameTests";
+			productName = "Floopy GameTests";
+			productReference = 094982A91A68BDE4001973CD /* Floopy GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		094982861A68BDE4001973CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = dhilipsiva;
+				TargetAttributes = {
+					0949828D1A68BDE4001973CD = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					094982A81A68BDE4001973CD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 0949828D1A68BDE4001973CD;
+					};
+				};
+			};
+			buildConfigurationList = 094982891A68BDE4001973CD /* Build configuration list for PBXProject "Floopy Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 094982851A68BDE4001973CD;
+			productRefGroup = 0949828F1A68BDE4001973CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0949828D1A68BDE4001973CD /* Floopy Game */,
+				094982A81A68BDE4001973CD /* Floopy GameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0949828C1A68BDE4001973CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094982A41A68BDE4001973CD /* LaunchScreen.xib in Resources */,
+				094982A11A68BDE4001973CD /* Images.xcassets in Resources */,
+				094982991A68BDE4001973CD /* art.scnassets in Resources */,
+				0949829F1A68BDE4001973CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094982A71A68BDE4001973CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		094982B91A68BE30001973CD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "./Fabric.framework/run 40965191bb7e7abdc46e9b1249342268fc6a5ad1 1682a78400a55c609b19baf62addabf5708dc01f87465d7e1346e9f211c1fcc6";
+			shellScript = "";
+		};
+		094982BA1A68BE8D001973CD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "./Fabric.framework/run 40965191bb7e7abdc46e9b1249342268fc6a5ad1 1682a78400a55c609b19baf62addabf5708dc01f87465d7e1346e9f211c1fcc6";
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0949828A1A68BDE4001973CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094982971A68BDE4001973CD /* AppDelegate.m in Sources */,
+				0949829C1A68BDE4001973CD /* GameViewController.m in Sources */,
+				094982941A68BDE4001973CD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094982A51A68BDE4001973CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094982B01A68BDE4001973CD /* Floopy_GameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		094982AB1A68BDE4001973CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0949828D1A68BDE4001973CD /* Floopy Game */;
+			targetProxy = 094982AA1A68BDE4001973CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0949829D1A68BDE4001973CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0949829E1A68BDE4001973CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		094982A21A68BDE4001973CD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				094982A31A68BDE4001973CD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		094982B11A68BDE4001973CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		094982B21A68BDE4001973CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		094982B41A68BDE4001973CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Floopy Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		094982B51A68BDE4001973CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Floopy Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		094982B71A68BDE4001973CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Floopy GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Floopy Game.app/Floopy Game";
+			};
+			name = Debug;
+		};
+		094982B81A68BDE4001973CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Floopy GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Floopy Game.app/Floopy Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		094982891A68BDE4001973CD /* Build configuration list for PBXProject "Floopy Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094982B11A68BDE4001973CD /* Debug */,
+				094982B21A68BDE4001973CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		094982B31A68BDE4001973CD /* Build configuration list for PBXNativeTarget "Floopy Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094982B41A68BDE4001973CD /* Debug */,
+				094982B51A68BDE4001973CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		094982B61A68BDE4001973CD /* Build configuration list for PBXNativeTarget "Floopy GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094982B71A68BDE4001973CD /* Debug */,
+				094982B81A68BDE4001973CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 094982861A68BDE4001973CD /* Project object */;
+}
