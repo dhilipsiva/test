@@ -1,0 +1,14 @@
+def insert_before(file_path, search_text, insert_text):
+    f = open(file_path, "r")
+    lines = f.readlines()
+    f.close()
+    f = open(file_path, "w")
+    for line in lines:
+        if search_text in line:
+            f.write(insert_text)
+        f.write(line)
+    f.close()
+
+
+# Example:
+insert_before("sample.c", "target_function", "// This is a new Comment\n")
