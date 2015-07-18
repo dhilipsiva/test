@@ -6,20 +6,18 @@
 #
 #
 
-'''
-    File name: enums.py
-    Version: 0.1
-    Author: dhilipsiva <dhilipsiva@gmail.com>
-    Date created: 2015-04-09
-'''
+"""
+File name: enums2.py
+Version: 0.1
+Author: dhilipsiva <dhilipsiva@gmail.com>
+Date created: 2015-07-07
+"""
 __author__ = "dhilipsiva"
 __status__ = "development"
 
 """
 
 """
-
-
 import inspect
 
 
@@ -31,19 +29,26 @@ def user_attributes(cls):
 
 def choices(cls):
     """
-    Decorator to set `CHOICES` attribute
+    Decorator to set `CHOICES` and other attributes
     """
     _choices = []
     for attr in user_attributes(cls):
         val = getattr(cls, attr)
-        _choices.append((val, attr))
+        setattr(cls, attr[1:], val[0])
+        _choices.append((val[0], val[1]))
     setattr(cls, 'CHOICES', tuple(_choices))
     return cls
 
 
-@choices
-class FooEnum:
-    FOO = 1
-    BAR = 2
+class BazEnum():
+    _BAZ = [2, "Some Baz String"]
 
-print FooEnum.CHOICES  # Will contain `((2, 'BAR'), (1, 'FOO'))`
+
+@choices
+class FooEnum(BazEnum):
+    _FOO = [1, "Some Foo String"]
+    _BAR = [2, "Some Bar String"]
+
+print FooEnum.CHOICES
+print FooEnum.FOO
+print dir(FooEnum)

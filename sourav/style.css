@@ -1,0 +1,18 @@
+/*
+ * style.css
+ * Copyright (C) 2015 dhilipsiva
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+body {
+    background: white;
+    color: black;
+}
+
+#green-color {
+    color: green;
+}
+h1.big {
+    font-size: 61px;
+}
