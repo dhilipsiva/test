@@ -4,6 +4,6 @@ import RouteChildrenMixin from 'emdj/mixins/route-children';
 
 export default Ember.Route.extend(GetObjectMixin, RouteChildrenMixin, {
   model: function(params) {
-    return this.getObject('project', params.project_uuid);
+    return this.getObject('file', params.file_uuid);
   }
 });

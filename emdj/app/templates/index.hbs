@@ -1,8 +1,8 @@
-<h2>Proejects</h2>
+<h2>Projects</h2>
 <ul>
   {{#each projects as |project|}}
   <li>
-    {{#link-to 'project' project.uuid}}{{project.uuid}}{{/link-to}}
+    {{#link-to 'project' project.uuid}}{{project.name}}{{/link-to}}
   </li>
   {{/each}}
 </ul>

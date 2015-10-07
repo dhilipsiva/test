@@ -19,11 +19,14 @@ __status__ = "development"
 
 """
 
-from core.views import projects, project
+from core.views import projects, project, files, file, pages
 from django.conf.urls import url
 from django.conf import settings
 
 urlpatterns = [
     url(r'^projects$', projects),
     url(r'^projects/(?P<project_uuid>%s)$' % settings.UUID_REGEX, project),
+    url(r'^files$', files),
+    url(r'^files/(?P<file_uuid>%s)$' % settings.UUID_REGEX, file),
+    url(r'^pages$', pages),
 ]

@@ -1,0 +1,13 @@
+<h2>Pages</h2>
+{{#link-to 'project' model.project.uuid}}
+<h3>Goto {{model.project.name}}</h3>
+{{/link-to}}
+<h3>{{model.name}}</h3>
+<ul>
+  {{#each model.pages as |page|}}
+  <li>
+    {{page.name}}
+  </li>
+  {{/each}}
+</ul>
+{{outlet}}

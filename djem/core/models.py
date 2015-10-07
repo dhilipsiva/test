@@ -44,7 +44,7 @@ class File(BaseModel):
         d = super(File, self).to_dict()
         d.update({
             "type": "file",
-            "project": self.project_id,
+            "project": self.project.uuid,
         })
         return d
 
@@ -59,7 +59,7 @@ class Page(BaseModel):
         d = super(Page, self).to_dict()
         d.update({
             "type": "page",
-            "file": self.file_id,
+            "file": self.file.uuid,
         })
         return d
 

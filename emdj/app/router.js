@@ -7,6 +7,7 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('project', {path: '/project/:project_uuid'});
+  this.route('file', {path: '/file/:file_uuid'});
 });
 
 export default Router;

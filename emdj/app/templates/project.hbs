@@ -1,9 +1,9 @@
 <h2>Files</h2>
-<h3>{{model.uuid}}</h3>
+<h3>{{model.name}}</h3>
 <ul>
   {{#each model.files as |file|}}
   <li>
-    {{#link-to 'file' file.uuid}}{{file.uuid}}{{/link-to}}
+    {{#link-to 'file' file.uuid}}{{file.name}}{{/link-to}}
   </li>
   {{/each}}
 </ul>
