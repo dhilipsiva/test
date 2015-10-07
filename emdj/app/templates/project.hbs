@@ -1,1 +1,10 @@
+<h2>Files</h2>
+<h3>{{model.uuid}}</h3>
+<ul>
+  {{#each model.files as |file|}}
+  <li>
+    {{#link-to 'file' file.uuid}}{{file.uuid}}{{/link-to}}
+  </li>
+  {{/each}}
+</ul>
 {{outlet}}
