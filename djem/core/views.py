@@ -11,9 +11,9 @@ def projects(request):
     return JsonResponse({"projects": projects})
 
 
-def project(request, uuid):
+def project(request, project_uuid):
     """
     Get a single project
     """
-    project = Project.objects.get(uuid=uuid)
-    return JsonResponse(project.to_dict())
+    project = Project.objects.get(uuid=project_uuid)
+    return JsonResponse({"project": project.to_dict()})

@@ -1,7 +1,9 @@
 LANFAFasdsa
 <ul>
   {{#each projects as |project|}}
-  <li>{{project.name}}</li>
+  <li>
+    {{#link-to 'project' project.uuid}}{{project.uuid}}{{/link-to}}
+  </li>
   {{/each}}
 </ul>
 {{outlet}}
