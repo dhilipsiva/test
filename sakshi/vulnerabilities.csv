@@ -1,0 +1,19 @@
+id,name
+1,Unprotected Services
+2,Improper Content Provider Permissions
+3,Application Debug Enabled
+4,Improper Custom Permission
+5,Broken Trust Manager for SSL
+6,Broken hostnameverifier for SSL
+7,Insecure SSLSocketFactory Implemented
+8,Hostname Verifier Allows all hostname
+9,App extends WebViewClient
+10,Unused Permissions
+11,Remote Code Execution Through JavascriptInterface
+12,Unprotected Activities
+13,SQL Injection
+14,Information in Shared Preference
+15,Insufficient Transport Layer Protection
+16,Derived Crypto Keys
+17,Application Logs
+18,Business Logic
