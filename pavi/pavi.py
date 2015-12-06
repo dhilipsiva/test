@@ -11,7 +11,7 @@ File name: pavi.py
 Author: dhilipsiva <dhilipsiva@gmail.com>
 Date created: 2015-12-06
 
-Requirements:
+Requirements [before runnin this script, you should install xlsxwriter as follows]:
 `pip install xlsxwriter`
 """
 
@@ -32,7 +32,7 @@ def extract_data(input_file):
 
 
 def processs_files(file_list, xlsx_file):
-    workbook = xlsxwriter.Workbook()
+    workbook = xlsxwriter.Workbook(xlsx_file)
     worksheet = workbook.add_worksheet()
 
     row = 0
