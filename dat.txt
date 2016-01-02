@@ -1,0 +1,28 @@
+File count:  1809
+
+Remote Code Execution Through JavascriptInterface(11) - 969
+Broken Trust Manager for SSL(5) - 869
+Application Logs(17) - 856
+Derived Crypto Keys(16) - 785
+Insufficient Transport Layer Protection(15) - 641
+
+None 15793
+Low 1562
+Medium 938
+High 4612
+
+
+Ignore this:
+1 198
+2 2
+3 71
+4 1
+6 633
+7 8
+8 419
+9 17
+10 0
+12 0
+13 15
+14 40
+18 26
