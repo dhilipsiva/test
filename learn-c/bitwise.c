@@ -7,10 +7,15 @@
 
 #include <stdio.h>
 
+int sum(int a, int b)
+{
+	return a + b;
+}
+
+
 int main(int argc, const char *argv[])
 {
 	int a = 3;
-	a = a << a;
-	printf("%d", a);
+	printf("%d", sum(a << a, a));
 	return 0;
 }
