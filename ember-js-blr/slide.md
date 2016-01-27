@@ -5,7 +5,9 @@
 ~ DISCLAIMER: I HAVE NO IDEA WHAT I AM TALKING ABOUT ~
 
 https://dhilipsiva.com
+
 https://appknox.com
+
 You can find this slide hosted here: https://github.com/dhilipsiva/test/blob/master/ember-js-blr/slide.md
 
 dhilipsiva
