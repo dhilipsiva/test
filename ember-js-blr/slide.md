@@ -10,6 +10,7 @@ https://appknox.com
 
 You can find this slide hosted here: https://github.com/dhilipsiva/test/blob/master/ember-js-blr/slide.md
 
+
 dhilipsiva
 
 - Currently working at @Appknox
