@@ -37,7 +37,7 @@ How did I end up using ember?
 
 Things that I love (and don't) about Ember.
 
-- I really liked ember because
+- I really liked ember because philosophies are similar to that to Cocoa
 - Extremely Opinionated (Hated at first, and then I grew up - absolutely loved it! And then I grew up a little more - I just think its nice to have)
 - Unlike Angular(Google) and React(Facebook) its not backed / controlled by a corporate. I like that
 - Gradual upgrade and clearly planned roadmap
