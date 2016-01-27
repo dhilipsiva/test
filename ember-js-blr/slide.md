@@ -29,9 +29,9 @@ How did I end up using ember?
 - iOS Development (I loved the philosopies behind Cocoa framework. )
 - Which lead to Frontend Development (Vanilla JS at first and then I was recommended Backbone)
 - Started researching about Front-end development
-- Came across SproutCore that was used By Apple (Apple was a main contributor to SP)
-- SP was forked as SP2.0
-- SP2.0 later became Ember
+- Came across SproutCore that was used By Apple (Apple was a main contributor to SC)
+- SC was forked as SC2.0
+- SC2.0 later became Ember
 
 
 Things that I love (and don't) about Ember.
