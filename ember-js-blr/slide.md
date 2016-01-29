@@ -22,12 +22,21 @@ dhilipsiva
 - Father, Gamer, Atheist
 
 
+Appknox
+
+- Appknox helps developers and enterprises to detect and fix security loopholes within a few minutes
+- We scan Android, iOS, Windows and IoT apps. No Source code required.
+- Backed my Microsoft Ventures and JFDI
+- 105,000 Apps Scanned, $100,000 in Revenue last year
+- We have around 40+ enterprise clients
+
+
 How did I end up using ember?
 
 - Games in College (With C)
 - Desktop Applications in College (C# .Net)
-- Jan'12 Backend (at Tataatsu)
-- iOS Development (I loved the philosopies behind Cocoa framework. )
+- Jan'12 Backend Development (at Tataatsu)
+- iOS Development (I loved the philosophy behind Cocoa framework. )
 - Which lead to Frontend Development (Vanilla JS at first and then I was recommended Backbone)
 - Started researching about Front-end development
 - Came across SproutCore that was used By Apple (Apple was a main contributor to SC)
@@ -78,3 +87,8 @@ We are hiring frontend guys!
 - [github.com/dhilipsiva](https://github.com/dhilipsiva)
 - [twitter.com/dhilipsiva](https://twitter.com/dhilipsiva)
 - [dhilipsiva@gmail.com](mailto:dhilipsiva@gmail.com)
+
+Appknox:
+- [appknox.com](https://www.appknox.com/)
+- [github.com/apknox](https://github.com/appknox)
+- [twitter.com/appknox](https://twitter.com/appknox)
