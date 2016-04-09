@@ -10,6 +10,7 @@ version = '0.1'
 description = 'Learning Gradle'
 
 apply plugin: 'java'
+apply plugin: 'idea'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
