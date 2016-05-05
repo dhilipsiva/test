@@ -9,56 +9,26 @@
 """
 File name: oz.py
 Author: dhilipsiva <dhilipsiva@gmail.com>
-Date created: 2016-04-24
+Date created: 2016-05-02
 """
 
-lines_count = int(raw_input())
+
+T = int(raw_input())
 lines = []
 
-while lines_count > 0:
-    lines.append(raw_input())
-    lines_count -= 1
-
-inputs = []
+while T > 0:
+    lines.append([int(t) for t in raw_input().split(" ")])
+    T -= 1
 
 for line in lines:
-    inputs.append([int(a) for a in line.split(" ")])
+    N = _min = min(*line)
 
+    line = [x-N for x in line]
+    for num in line:
+        N += int(num / 3)
 
-def first_4(l):
-    min_val = min(l)
-    l = [i-min_val for i in l]
-    for i in l:
-        if i < 3:
-            continue
-        min_val += int(min_val / 3)
-    l = [i % 3 for i in l]
-    if min(l) > 0 and sum(l) == 4:
-        min_val += 1
-    return min_val
+    line = [x % 3 for x in line]
+    if sum(line) > 3 and _min > 0:
+        N += 1
 
-
-def first_others(l):
-    min_val = 0
-    for i in l:
-        if i < 3:
-            continue
-        min_val += int(i / 3)
-    l = [i % 3 for i in l]
-    min_val += min(l)
-    if sum(l) == 4:
-        min_val += 1
-    return min_val
-
-
-for data in inputs:
-    fo = first_others(data)
-    """
-    f4 = first_4(data)
-    if fo > f4:
-        print(fo)
-    else:
-        print(f4)
-    # print(first_others(data))
-    """
-    print(fo)
+    print N
