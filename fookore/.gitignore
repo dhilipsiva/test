@@ -1,0 +1,6 @@
+*.o
+.flavor
+.objs
+fookore.so
+assets.h
+cert

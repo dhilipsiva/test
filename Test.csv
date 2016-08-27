@@ -1,0 +1,10 @@
+Packages,Vuln 1,Vuln 2,Vuln 3,Vuln 4,Vuln 5,Vuln 6,Vuln 7,Vuln 8,Vuln 9,Vuln 10,Vuln 11,Vuln 15,Vuln 16,Vuln 17
+"org.chromium.base,org.chromium.net",0,0,0,0,0,0,0,0,0,1,3,3,3,0
+,3,0,0,0,0,0,0,0,0,1,0,3,3,2
+"com.facebook.debug.logcat.raw,com.facebook.acra,com.facebook.base.app,com.facebook.nodex.startup.splashscreen,org.tukaani.xz.lzma,com.facebook.common.dextricks,com.facebook.common.gcinitopt,com.facebook.dalvik,com.facebook.common.errorreporting.crashcounter,com.facebook.acra.util,com.facebook.nobreak,com.facebook.systrace,com.facebook.common.init,com.facebook.nodex.startup.warmup,com.facebook.nodex.startup.crashloop,com.facebook.dalviktelemetry,com.facebook.androidinternals.android.os,com.facebook.soloader,com.facebook.xzdecoder",3,0,0,0,3,3,0,0,0,1,0,0,0,0
+"com.android.ex.photo,org.apache.james.mime4j.codec,com.android.mail.compose,com.android.ex.photo.util,com.android.ex.chips,com.android.mail.ui,com.android.mail.browse,com.android.emailcommon.mail,com.android.mail.utils,org.apache.james.mime4j.field.address.parser,com.android.ex.editstyledtext",3,0,0,0,0,0,0,0,0,1,3,0,3,2
+,3,0,0,0,0,0,0,0,0,1,3,0,0,0
+"com.android.volley.toolbox,com.android.volley,org.keyczar,org.keyczar.util,org.keyczar.interfaces",3,0,0,0,0,0,0,0,0,1,0,3,3,0
+"org.chromium.base,org.chromium.net",3,0,0,0,0,0,0,0,0,1,0,3,0,2
+"com.android.launcher3,com.android.recurrencepicker",3,0,0,0,0,0,0,0,0,1,3,3,3,0
+"com.android.ex.editstyledtext,speech.patts,location.unified,speech.patts.japanese.number_suffix,com.android.common,com.android.common.contacts,speech.patts.hmm,com.android.common.widget",0,0,0,0,0,0,0,0,0,1,0,0,0,2
