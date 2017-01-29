@@ -20,7 +20,7 @@ __status__ = "development"
 """
 
 
-def ISBNcode(data):
+def isbn_code(data):
     code = [int(x) for x in data]
     result = 0
     for i in range(1, 13):
@@ -35,4 +35,4 @@ def ISBNcode(data):
 
 
 user = str(input("Enter the 12 digit ISBN code : "))
-ISBNcode(user)
+isbn_code(user)
