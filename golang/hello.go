@@ -46,4 +46,20 @@ func main() {
 		var f = make([][]int, 3, 4)
 		fmt.Println(f)
 	*/
+	m := make(map[string]int)
+	m["FOO"] = 1
+	m["BAR"] = 2
+	val, exists := m["BAR"]
+	if exists {
+		fmt.Println("Exists", val)
+	} else {
+		fmt.Println("Nope")
+	}
+	delete(m, "BAR")
+	val, exists = m["BAR"]
+	if exists {
+		fmt.Println("Exists", val)
+	} else {
+		fmt.Println("Nope")
+	}
 }
