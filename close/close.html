@@ -1,0 +1,27 @@
+<html>
+	<body>
+		<div class="btns">
+			<p>Write JavaScript (using jQuery is fine) so that clicking on any button will cause an alert to popup with the text of the button that was clicked.</p>
+
+			<p>Make sure your solution is as efficient as possible even if there are a lot more <code>button.btn</code>'s added on the page.  Do not use unnecessary event listeners.</p>
+
+			<button class="btn">c</button>
+			<button class="btn">l</button>
+			<button class="btn">o</button>
+			<button class="btn">s</button>
+			<button class="btn">e</button>
+			<button class="btn">.</button>
+			<button class="btn">i</button>
+			<button class="btn">o</button>
+		</div>
+
+		<script charset="utf-8">
+			var btns = document.getElementsByClassName("btns")[0];
+btns.onclick = function(event){
+	if (event.target.className == "btn"){
+		alert(event.target.innerText)
+	}
+};
+		</script>
+	</body>
+</html>

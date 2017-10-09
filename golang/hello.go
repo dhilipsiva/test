@@ -62,4 +62,10 @@ func main() {
 	} else {
 		fmt.Println("Nope")
 	}
+	// p * Point = Point{5, 4}
+	p := Point{y: 5, x: 4}
+	v := &p
+	v.x = 100
+	fmt.Println(p)
+	fmt.Println(v)
 }
